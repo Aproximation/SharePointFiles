@@ -1,0 +1,27 @@
+<ps:Config xmlns:ps="urn:Microsoft.SharePoint.PowerShell"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="urn:Microsoft.SharePoint.PowerShell SPCmdletSchema.xsd">
+
+  <ps:Assembly Name="Microsoft.Office.Server.WorkManagement, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+    <ps:Cmdlet>
+      <ps:VerbName>New-SPWorkManagementServiceApplication</ps:VerbName>
+      <ps:ClassName>Microsoft.Office.Server.WorkManagement.Cmdlet.SPCmdletNewWorkManagementService</ps:ClassName>
+      <ps:HelpFile>Microsoft.Office.Server.WorkManagement.dll-help.xml</ps:HelpFile>
+    </ps:Cmdlet>
+    <ps:Cmdlet>
+      <ps:VerbName>Set-SPWorkManagementServiceApplication</ps:VerbName>
+      <ps:ClassName>Microsoft.Office.Server.WorkManagement.Cmdlet.SPCmdletSetWorkManagementService</ps:ClassName>
+      <ps:HelpFile>Microsoft.Office.Server.WorkManagement.dll-help.xml</ps:HelpFile>
+    </ps:Cmdlet>
+    <ps:Cmdlet>
+      <ps:VerbName>New-SPWorkManagementServiceApplicationProxy</ps:VerbName>
+      <ps:ClassName>Microsoft.Office.Server.WorkManagement.Cmdlet.SPCmdletNewWorkManagementServiceProxy</ps:ClassName>
+      <ps:HelpFile>Microsoft.Office.Server.WorkManagement.dll-help.xml</ps:HelpFile>
+    </ps:Cmdlet>
+    <ps:Cmdlet>
+      <ps:VerbName>Set-SPWorkManagementServiceApplicationProxy</ps:VerbName>
+      <ps:ClassName>Microsoft.Office.Server.WorkManagement.Cmdlet.SPCmdletSetWorkManagementServiceProxy</ps:ClassName>
+      <ps:HelpFile>Microsoft.Office.Server.WorkManagement.dll-help.xml</ps:HelpFile>
+    </ps:Cmdlet>
+  </ps:Assembly>
+</ps:Config>
